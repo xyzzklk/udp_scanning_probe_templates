@@ -1,5 +1,5 @@
 # Introduction
-This is a collection of a wide range of UDP probe payloads and templates for UDP service scanning with tools like ZMap.
+This is a collection of a wide range of UDP probe payloads and templates for UDP service scanning with tools like [ZMap](https://github.com/zmap/zmap).
 
 These probes are useful in network scanning because UDP does not establish connections. Simply sending an empty, malformed or random-payload packet does not guarantee a response, and the request might be discarded. Sending a packet with a protocol-compliant layer-4 payload forces the target application to actually reply.
 
@@ -21,6 +21,9 @@ These probes are useful in network scanning because UDP does not establish conne
 
 # Contributing
 Contributions are welcome! If you have additional UDP probe templates, optimised payloads, or corrections for existing ones, please check out our [`CONTRIBUTING.md`](/CONTRIBUTING.md) guide.
+
+> [!NOTE]
+> Certain UDP probe binaries or templates in this repository could be originally from the official [ZMap Project](https://github.com/zmap/zmap) (I am not sure), licensed under the Apache License 2.0.
 
 # Usage Demo: Using Probe Payloads with ZMap
 The following instructions give a quick demonstration on using some of these UDP probes with a network scanning tool, here using ZMap as an example.
