@@ -11,7 +11,9 @@ These probe payloads are useful in network scanning because UDP does not establi
 > 2. Then use a filtering tool like [AmpliFilter](https://github.com/xyzzklk/amplifilter) to filter out ones that are _actually_ vulnerable to becoming reflectors.
 
 > [!WARNING]
+>
 > **⚠️ Disclaimer**
+>
 > The scripts, packet payloads (`.pkt`) and configurations in this repository are provided strictly for **educational purposes, authorised security research and defensive network auditing**. The author(s) and contributor(s) of this repository assume **no liability whatsoever** for any misuse, damage or legal consequences resulting from the use, modification or distribution of this material. By downloading, cloning, or using any part of this repository, you explicitly agree to the following terms:
 > 1. Mass network scanning can generate significant network traffic, impact third-party services and trigger automated security alarms. You must ensure that you have explicit, documented authorisation from the network owner before executing any probes or scripts contained in this repository against any target outside your own test lab.
 > 2. Unauthorised network scanning may violate local, national and international laws. The author(s) of this repository assume no liability and are not responsible for any misuse, damage or legal consequences resulting from the use or misuse of the payloads or scripts provided herein.
