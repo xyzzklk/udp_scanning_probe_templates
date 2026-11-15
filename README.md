@@ -19,6 +19,9 @@ These probes are useful in network scanning because UDP does not establish conne
 > 2. Unauthorised network scanning may violate local, national and international laws. The author(s) of this repository assume no liability and are not responsible for any misuse, damage or legal consequences resulting from the use or misuse of the payloads or scripts provided herein.
 > 3. The software, scripts and packet payloads in this repository are provided **"AS IS"**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
+# Contributing
+Contributions are welcome! If you have additional UDP probe templates, optimised payloads, or corrections for existing ones, please check out our [`CONTRIBUTING.md`](/CONTRIBUTING.md) guide.
+
 # Usage Demo: Using Probe Payloads with ZMap
 The following instructions give a quick demonstration on using some of these UDP probes with a network scanning tool, here using ZMap as an example.
 
